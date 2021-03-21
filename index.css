@@ -1,0 +1,61 @@
+.root {
+  background-color: #E5E5E5;
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  color: black;
+}
+
+.aboutprice {
+  padding: 4.6875vw 18.75vw;
+  box-sizing: border-box;
+  background-color: white;
+  width: 100vw;
+  max-width: 1920px;
+  height: 718px;
+}
+
+.aboutprice__title {
+  max-width: 220px;
+
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 41px;
+  margin: 0;
+  white-space: pre-wrap;
+}
+
+.aboutprice__grid {
+  padding: 75px 0 0;
+  display: grid;
+  grid-template-columns: repeat(2, 420px);
+  gap: 20px;
+}
+
+.aboutprice__grid-element {
+  display: flex;
+  width: 100%;
+}
+
+.aboutprice__icon {
+  width: 80px;
+  height: auto;
+  object-fit: contain;
+}
+
+.aboutprice__grid-textbox {
+  padding-left: 36px;
+}
+
+.aboutprice__grid-title {
+  margin: 0;
+  padding-bottom: 7px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 191.9%;
+}
+
+.aboutprice__grid-text {
+  line-height: 24px;
+}
